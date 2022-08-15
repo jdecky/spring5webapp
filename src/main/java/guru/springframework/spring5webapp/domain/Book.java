@@ -23,7 +23,7 @@ public class Book {
     public Book() {
     }
 
-    public Book(String title, String isbns) {
+    public Book(String title, String isbn) {
         this.title = title;
         this.isbn = isbn;
     }
@@ -34,7 +34,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 

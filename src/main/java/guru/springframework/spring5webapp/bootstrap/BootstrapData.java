@@ -37,6 +37,8 @@ public class BootstrapData implements CommandLineRunner {
         authorRepository.save(eric);
         bookRepository.save(ddd);
 
+//        System.out.println("Book 1  : " + bookRepository.findAll());
+
         Author rod = new Author("Rod", "Johnson");
         Book noEjb = new Book("J2EE development without EJB", "3423242423");
         rod.getBooks().add(noEjb);
@@ -73,5 +75,8 @@ public class BootstrapData implements CommandLineRunner {
         pearson.getBooks().add(noEjb);
         publisherRepository.save(pearson);
 
+
+        //System.out.println("Book 1  : " + bookRepository.findById(2l));
+        //System.out.println("Books : " + bookRepository.findAll());
     }
 }
