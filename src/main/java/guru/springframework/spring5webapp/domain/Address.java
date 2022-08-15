@@ -83,4 +83,12 @@ public class Address {
     public void setZip(String zip) {
         this.zip = zip;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
